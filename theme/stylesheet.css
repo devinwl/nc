@@ -70,3 +70,8 @@ li.row:hover {
     background: #000;
     color: #000;
 }
+
+.postprofile .custom-color a {
+    color: inherit;
+}
+}
