@@ -1,5 +1,10 @@
 .post .postprofile {
     float: none;
+    position: static;
+}
+
+.post .postbody .content {
+    padding-left: 0;
 }
 
 .headerbar {
