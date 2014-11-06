@@ -9,6 +9,7 @@
 
 body {
     background: #fff;
+    padding-top: 0;
 }
 
 .headerbar {
@@ -22,6 +23,7 @@ body {
 #wrap {
     border: none;
     max-width: 100%;
+    padding-top: 0;
 }
 
 #site-description {
