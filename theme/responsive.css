@@ -16,9 +16,3 @@ video {
 .post .postbody .content {
     padding-left: 0;
 }
-
-.headerbar {
-    background-size: 100%;
-    background-position: 0 50%;
-    height: 60px;
-}
