@@ -22,7 +22,7 @@ body {
     background-image: url('./images/bg_header.jpg');
     background-repeat: no-repeat;
     background-position: 50% 0;
-    height: 85px;
+    height: 100px;
 }
 
 #wrap {
@@ -43,8 +43,7 @@ body {
 .postprofile {
     float: left;
     border: none;
-    width: 140px;
-    position: absolute;
+    width: 11%;
 }
 
 .postprofile dt,
@@ -62,11 +61,7 @@ body {
 }
 
 .postbody {
-    width: 100%;
-}
-
-.postbody .content {
-    padding-left: 140px;
+    width: 89%;
 }
 
 .online {
@@ -84,5 +79,5 @@ li.row:hover {
 }
 
 .postprofile .custom-color a {
-    color: inherit!important;
+    color: inherit;
 }
