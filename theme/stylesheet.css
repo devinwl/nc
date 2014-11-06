@@ -36,7 +36,8 @@ body {
 .postprofile {
     float: left;
     border: none;
-    width: 11%;
+    width: 140px;
+    position: absolute;
 }
 
 .postprofile dt,
@@ -54,7 +55,11 @@ body {
 }
 
 .postbody {
-    width: 89%;
+    width: 100%;
+}
+
+.postbody .content {
+    padding-left: 140px;
 }
 
 .online {
