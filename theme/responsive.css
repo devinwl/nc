@@ -1,6 +1,16 @@
+video {
+    width: 100%;
+    height: auto;
+}
+
 .post .postprofile {
     float: none;
     position: static;
+}
+
+.post .postprofile .post-buttons {
+    position: absolute;
+    margin-top: 0;
 }
 
 .post .postbody .content {
