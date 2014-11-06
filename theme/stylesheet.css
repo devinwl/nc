@@ -1,0 +1,72 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			prosilver (the default phpBB 3.1.x style)
+	Based on style:
+	Original author:	Tom Beddard ( http://www.subblue.com/ )
+	Modified by:		phpBB Limited ( https://www.phpbb.com/ )
+    --------------------------------------------------------------
+*/
+
+body {
+    background: #fff;
+}
+
+.headerbar {
+    background-color: transparent;
+    background-image: url('./images/bg_header.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    height: 85px;
+}
+
+#wrap {
+    border: none;
+    max-width: 100%;
+}
+
+#site-description {
+    display: none;
+}
+
+.forabg,
+.forumbg {
+    background: #2980b9;
+}
+
+.postprofile {
+    float: left;
+    border: none;
+    width: 11%;
+}
+
+.postprofile dt,
+.postprofile dd {
+    margin-left: 0;
+}
+
+.postprofile .profile-contact {
+    margin-top: 10px;
+}
+
+.has-profile .post-buttons {
+    position: static;
+    margin-top: 10px;
+}
+
+.postbody {
+    width: 89%;
+}
+
+.online {
+    background-image: none!important;
+}
+
+li.row,
+li.row:hover {
+    background-color: #ECF3F7;
+}
+
+.spoiler {
+    background: #000;
+    color: #000;
+}

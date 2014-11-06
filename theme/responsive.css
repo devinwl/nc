@@ -1,0 +1,9 @@
+.post .postprofile {
+    float: none;
+}
+
+.headerbar {
+    background-size: 100%;
+    background-position: 0 50%;
+    height: 60px;
+}
