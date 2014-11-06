@@ -72,6 +72,5 @@ li.row:hover {
 }
 
 .postprofile .custom-color a {
-    color: inherit;
-}
+    color: inherit!important;
 }
