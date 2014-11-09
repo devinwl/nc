@@ -3,6 +3,14 @@ video {
     height: auto;
 }
 
+.youtube-player {
+	width: 100%;
+}
+
+.navbar[role="navigation"] {
+	margin-top: 4px;
+}
+
 .post .postprofile {
     float: none;
     position: static;
@@ -10,7 +18,13 @@ video {
 
 .post .postprofile .post-buttons {
     position: absolute;
-    margin-top: 0;
+    top: -5px;
+	right: 10px;
+}
+
+.post .postprofile .profile-rank {
+	max-width: 155px;
+	line-height: 10px;
 }
 
 .post .postbody .content {
