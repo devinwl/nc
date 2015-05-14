@@ -27,17 +27,17 @@ body {
     border-top-right-radius: 0px;
 }
 
-.navbar[role="navigation"] {
+#page-header .navbar[role="navigation"] {
     background-image: url('./images/bg_navbar.jpg');
     background-position: 50% 0;
     background-repeat: no-repeat;
 }
 
-.navbar[role="navigation"] a {
+#page-header .navbar[role="navigation"] a {
     color: #fff;
 }
 
-.navbar[role="navigation"] .dropdown a {
+#page-header .navbar[role="navigation"] .dropdown a {
     color: #105289;
 }
 
@@ -82,8 +82,17 @@ body {
     position: static;
 }
 
+.pm .postbody {
+    width: auto;
+    float: left;
+}
+
 .postbody .content {
     clear: none;
+}
+
+#preview .postbody .content {
+    clear: both;
 }
 
 .postbody .notice {
